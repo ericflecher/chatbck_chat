@@ -1,4 +1,13 @@
 Notifiy::Application.configure do
+  
+  require 'pusher'
+  Pusher.logger = Rails.logger
+  
+  # Get some free Pusher credential for development use:
+  Pusher.app_id = '34835'
+  Pusher.key    = '658f7146c70ccc4b5dd7'
+  Pusher.secret = '76d7d9ae0fa39ffce421'
+  
   # Settings specified here will take precedence over those in config/application.rb
 
   # The production environment is meant for finished, "live" apps.
