@@ -13,6 +13,9 @@ end
 gem 'sqlite3', :group => :development
 gem 'devise'
 
+gem 'simple_form'
+gem "cancan"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
